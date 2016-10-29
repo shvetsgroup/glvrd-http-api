@@ -52,16 +52,17 @@
 
     ```json
     {
-      status: 'ok',
-      text: '...',
-      score: '...',
-      fragments: [
-        { start: ...,
-          end: ...,
-          hint_id: '...',
-          hint: { name: '...', description: '...' },
+      "status": "ok",
+      "text": "...",
+      "score": "...",
+      "fragments": [
+        {
+          "start": "...",
+          "end": "...",
+          "hint_id": "...",
+          "hint": { "name": "...", "description": "..." }
         },
-        ...
+        "..."
       ]
     }
     ```
@@ -77,12 +78,10 @@
 
     ```json
     {
-        'status': 'ok',
-        'hints': [
-            {
-                ...: {‘name’: ..., 'description': ...},
-            },
-            ...
+        "status": "ok",
+        "hints": [
+            {"...": {"name": "...", "description": "..."}},
+            {"...": {"name": "...", "description": "..."}}
         ]
     }
     ```
