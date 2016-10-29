@@ -155,7 +155,7 @@ class Glavred {
             return this.fetch(this.getApiURL('status'), {}, "POST").then((response) => {
                 this.handleStatusResponse(response);
                 // TODO: replace 3600 with lifespan once API is updated.
-                this.sessionExpiration = timestamp + 3600;
+                this.sessionExpireTime = timestamp + 3600;
                 return Promise.resolve(response);
             });
         });
