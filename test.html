@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <script src="lib/glvrd.js"></script>
+</head>
+<body>
+<script>
+    var glvrd = new Glavred('test');
+    var text = "Редактор суть писатель.";
+    glvrd.proofread(text).then(function (response) {
+        console.log(response);
+    });
+</script>
+</body>
+</html>
