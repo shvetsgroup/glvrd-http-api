@@ -1,6 +1,6 @@
 {
-  "name": "glvrd",
-  "version": "1.0.0",
+  "name": "glvrd-http-api",
+  "version": "0.0.1",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile",
