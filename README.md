@@ -33,7 +33,6 @@
 
 2. Теперь можно включить АПИ Главреда с помощью require:
 
-
     ```js
     var Glavred = require('glvrd-http-api');
     var glvrd = new Glavred("Element plugin v5.0");
