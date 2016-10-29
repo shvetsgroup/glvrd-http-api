@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/shvetsgroup/glvrd-http-api.svg?branch=master)](https://travis-ci.org/shvetsgroup/glvrd-http-api)
+
 #  JavaScript реализация HTTP API Главреда (glvrd.ru)
 
 Эта библиотека упрощает работу с HTTP API (v2) [Главреда](http://glvrd.ru). Библиотека может работать как в браузере, так и на Ноде.
