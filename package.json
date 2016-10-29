@@ -1,6 +1,14 @@
 {
   "name": "glvrd-http-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "main": "lib/glvrd.js",
+  "license": "MIT",
+  "keywords": [
+    "glvrd",
+    "glavred",
+    "главред"
+  ],
+  "homepage": "https://github.com/shvetsgroup/glvrd-http-api",
   "scripts": {
     "compile": "babel -d lib/ src/",
     "prepublish": "npm run compile",
